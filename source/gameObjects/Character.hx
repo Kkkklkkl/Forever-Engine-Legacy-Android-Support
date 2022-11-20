@@ -143,6 +143,17 @@ class Character extends FNFSprite
 				animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24);
 				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24);
 
+                        case 'tankmam':
+				// DAD ANIMATION LOADING CODE
+				tex = Paths.getSparrowAtlas('characters/DADDY_DEAREST');
+				frames = tex;
+				animation.addByPrefix('idle', 'Tankman Idle Dance instance 1', 24, false);
+				animation.addByPrefix('singUP', 'Tankman UP note instance 1', 24);
+				animation.addByPrefix('singRIGHT', 'Tankman Right Note instance 1', 24);
+				animation.addByPrefix('singDOWN', 'Tankman DOWN note instance 1', 24);
+				animation.addByPrefix('singLEFT', 'Tankman Note Left instance 1', 24);
+
+
 				playAnim('idle');
 			case 'spooky':
 				tex = Paths.getSparrowAtlas('characters/spooky_kids_assets');
